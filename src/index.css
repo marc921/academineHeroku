@@ -40,13 +40,13 @@ nav {
 }
 
 nav a {
-  font-family: code-pro;
+  font-family: 'Source Code Pro', sans-serif;
   color: white;
   text-decoration: none;
 }
 
 .academine {
-  font-family: acme;
+  font-family: 'Acme', sans-serif;
   font-size: 2em;
   color: white;
   text-decoration: none;
@@ -198,33 +198,7 @@ code{
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-@font-face {
-    font-family: bubblegum;
-    src: url('fonts/BubblegumSans.otf');
-}
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
-@font-face {
-    font-family: chunkfive;
-    src: url('fonts/Chunkfive.otf');
-}
-
-@font-face {
-    font-family: expletus;
-    src: url('fonts/Expletus.ttf');
-}
-
-@font-face {
-    font-family: lapsus;
-    src: url('fonts/Lapsus.otf');
-}
-
-@font-face {
-    font-family: acme;
-    src: url('fonts/Acme-Regular.ttf');
-}
-
-@font-face {
-    font-family: code-pro;
-    src: url('fonts/Code_Pro_Demo.otf');
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
