@@ -6,14 +6,14 @@ export default class Nav extends React.Component {
 		return(
 		  <nav>
 		    <Link className='academine' href='/' text='AcadéMine'/>
-		    <Link href='/web' text='WEB' />
-		    <Link href='/java' text='JAVA' />
-		    <Link href='/unity' text='UNITY' />
-		    <Link href='/hacking' text='CYBERSECURITE' />
-		    <Link href='/linux' text='LINUX' />
-		    <Link href='/git' text='GIT' />
-		    <Link href='/concepts' text='CONCEPTS' />
-		    <Link href='/others' text='AUTRES' />
+		    <Link href='/web' text='Web' />
+		    <Link href='/java' text='Java' />
+		    <Link href='/unity' text='Unity' />
+		    <Link href='/hacking' text='Cybersécurité' />
+		    <Link href='/linux' text='Linux' />
+		    <Link href='/git' text='Git' />
+		    <Link href='/concepts' text='Concepts' />
+		    <Link href='/others' text='Autres' />
 		  </nav>
 		);
 	};

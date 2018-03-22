@@ -19,6 +19,10 @@ export default class Contact extends React.Component {
             Examinez le code source du site et/ou proposez votre contribution.<br/>
             Toute copie, partielle ou entière, est fortement encouragée dans quelque but que ce soit.
           </p>
+          <p>
+            N'hésitez pas à <a href="mailto:marc.brun@mines-paristech.fr">contacter l'administrateur du site </a> pour toute demande ou remarque !
+          </p>
+
         </div>
       </div>
     );

@@ -28,6 +28,8 @@ export default class WebAnnexes extends React.Component {
           <ul>
             <li><a href="https://fonts.google.com/">Google Fonts</a></li>
             <li><a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>
+            <li><a href="https://www.heroku.com/">Heroku : héberger son site web gratuitement et facilement</a><br/>
+                L'AcadéMine est actuellement hébergée par Heroku.</li>
           </ul>
         </div>
       </div>
