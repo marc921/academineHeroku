@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<title>Simple XSS Attack Example</title>
+	<body>
+		<label>Entrez votre nom: </label>
+		<input type='text' id='name'/>
+		<button onClick='submit()'>Afficher</button>
+		<div id='message' ></div>
+	</body>
+</html>
+<script>
+	function submit(){
+		document.getElementById("message").innerHTML = 'Bonjour '+document.getElementById("name").value;
+	}
+</script>
