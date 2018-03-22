@@ -153,8 +153,9 @@ li a:hover{
 
 /* TEXT */
 h1, h2 {
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 0;
+  color: #222;
 }
 
 button{
