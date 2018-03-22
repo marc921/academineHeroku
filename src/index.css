@@ -38,6 +38,14 @@ nav {
   width: 100%;
 }
 
+.nav2{
+  background-color: #363b4a;
+}
+
+.nav3{
+  background-color: #404659;
+}
+
 nav a {
   font-family: 'Source Code Pro', sans-serif;
   color: white;

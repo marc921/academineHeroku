@@ -44,7 +44,7 @@ export default class WebHome extends React.Component {
 }
 
 export const WebNav = () => (
-  <nav>
+  <nav className='nav2'>
     <Link href='/web/html' text='HTML' />
     <Link href='/web/css' text='CSS' />
     <Link href='/web/js' text='Javascript' />

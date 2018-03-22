@@ -54,7 +54,7 @@ export default class HackingHome extends React.Component {
 }
 
 export const HackingNav = () => (
-  <nav>
+  <nav className='nav2'>
     <Link href='/hacking/web' text='Sites Web' />
     <Link href='/hacking/network' text='Réseau' />
     <Link href='/hacking/binaries' text='Exécutables' />

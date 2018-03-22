@@ -55,7 +55,7 @@ export default class JS extends React.Component {
 }
 
 export const JSNav = () => (
-  <nav>
+  <nav className='nav3'>
     <Link href='/web/js/react' text='React' />
     <Link href='/web/js/angular' text='Angular' />
     <Link href='/web/js/node' text='Node' />
