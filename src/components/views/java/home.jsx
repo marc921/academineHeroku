@@ -15,6 +15,7 @@ export default class JavaHome extends React.Component {
               <li><a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java">OpenClassrooms: Java</a></li>
               <li><a href="https://www.tutorialspoint.com/java/index.htm">Tutorials Point: Java</a></li>
               <li><a href="https://www.javatpoint.com/java-tutorial">Java T Point: Java</a></li>
+              <li><a href="https://www.learnjavaonline.org/">Learn Java Online</a></li>
             </ul>
 
             <h2>

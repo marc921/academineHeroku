@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         </div>
         <div className='half-page small-half border-left'>
           <iframe width="100%"
-                  height="70%"
+                  height="60%"
                   src="https://www.youtube.com/embed/F9GujgK0y2M" 
                   frameBorder="0"
                   allow="autoplay; encrypted-media"

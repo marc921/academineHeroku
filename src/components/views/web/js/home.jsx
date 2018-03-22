@@ -12,7 +12,7 @@ export default class JS extends React.Component {
         <WebNav />
         <JSNav />
         <div className='two-columns-page'>
-          <div className='half-page big-half'>
+          <div className='half-page half'>
             Le langage Javascript (qui n'a aucun lien avec Java) peut s'utiliser seul ou avec des frameworks.<br/>
             <br/>
             
@@ -29,15 +29,16 @@ export default class JS extends React.Component {
             
             <br/>
 
-            <h2>Tutoriels Javascript</h2>
+            <h2>Tutoriels extérieurs</h2>
             <ul>
               <li><a href='https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript'>OpenClassrooms - Javascript</a></li>
               <li><a href='https://www.w3schools.com/js/default.asp'>W3Schools - Javascript</a></li>
               <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point: Javascript</a></li>
+              <li><a href="https://www.learn-js.org/">Learn Javascript</a></li>
             </ul>
           </div>
 
-          <div className='half-page small-half border-left'>
+          <div className='half-page half border-left'>
             <h2>Exemple</h2>
             <label>Dans un fichier .html:</label>
             <Highlight lang={"html"}
