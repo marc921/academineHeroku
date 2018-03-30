@@ -8,7 +8,14 @@ export default class Nav extends React.Component {
 	}
 
 	callApi = async () => {
-		const response = await fetch('https://academine-backend.herokuapp.com/receiver');
+		const response = await fetch('https://academine-backend.herokuapp.com/receiver', { 
+		   method: 'post', 
+		   headers: new Headers({
+		     'Authorization': 'Basic '+btoa('2a8i6w3h/q*:9i2z#486RI@e6nW5q'), 
+		     'Content-Type': 'application/x-www-form-urlencoded'
+		   }), 
+		   body: 'A=1&B=2'
+		 });
 		const body = await response.json();
 
 		if (response.status !== 200) throw Error(body.message);
