@@ -38,7 +38,7 @@ export default class Linux extends React.Component {
               <li><code>commande -h</code>: <i><b>h</b>elp</i>: affiche une aide courte concernant commande</li>
               <li><code>ls</code>:<i><b>l</b>i<b>s</b>t</i>: affiche le contenu du dossier courant</li>
               <li><code>cd dossier</code>:<i><b>c</b>hange <b>d</b>irectory</i>: se déplace dans dossier</li>
-              <li><code>./executable</code>: exécute exécutable</li>
+              <li><code>./executable</code>: exécute executable</li>
               <li><code>nano fichier</code>: <i>nano</i> est un éditeur de texte très simple. Ctrl+X pour revenir au terminal.</li>
               <li><code>apt-cache search recherche</code>: <i>apt</i> (Advanced Packaging Tool) est un système de gestion des "paquets", c'est-à-dire des logiciels que vous installez sur votre ordinateur. <i>apt-cache search</i> permet de chercher des paquets par nom et d'obtenir une courte description sur eux.</li>
               <li><code>sudo apt-get install paquet</code>: <i>sudo</i> indique que vous exécutez la commande en tant que root, <i>apt-get install</i> va installer le paquet dans votre ordinateur automatiquement.</li>
