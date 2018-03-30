@@ -2,7 +2,7 @@ import React from "react";
 
 import { WebNav } from './home';
 
-var Highlight = require('react-syntax-highlight');
+const Highlight = require('react-syntax-highlight');
 
 export default class PHP extends React.Component {
   render() {
@@ -23,6 +23,7 @@ export default class PHP extends React.Component {
           </div>
           <div className='half-page big-half border-left'>
             <h2>Exemple</h2>
+            <label>Ce script gère la soumission d'un formulaire.</label>
             <label>Dans un fichier .php:</label>
             <Highlight lang={"html"}
               value={

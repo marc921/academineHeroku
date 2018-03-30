@@ -20,6 +20,7 @@ export default class CSS extends React.Component {
           </div>
           <div className='half-page big-half border-left'>
             <h2>Exemple</h2>
+            <label>Ce code CSS change l'apparence des différents composants (tags) d'une page HTML.</label>
             <label>Ecrire dans un fichier nommé style.css :</label>
             <Highlight lang={"css"}
               value={

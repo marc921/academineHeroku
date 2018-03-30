@@ -40,6 +40,7 @@ export default class JS extends React.Component {
 
           <div className='half-page half border-left'>
             <h2>Exemple</h2>
+            <label>Ce script décrit ce que la page doit faire lorsque l'utilisateur clique sur un bouton.</label>
             <label>Dans un fichier .html:</label>
             <Highlight lang={"html"}
               value={
