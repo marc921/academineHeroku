@@ -5,9 +5,12 @@ export default class Contact extends React.Component {
     return (
       <div>
         <div className='page'>
+          <p>
+            <a href="mailto:marc.brun@mines-paristech.fr">Contacter l'administrateur du site</a> pour toute demande d'ajout ou remarque !
+          </p>
           <a href="https://academine.slack.com/messages/C9NG8PCSF/"><h1>Slack</h1></a>
           <p>
-            Que ce soit pour des remarques ou pour une contribution, nous serons très heureux de vous accueillir sur le slack d'AcadéMine.
+            Que ce soit pour des remarques ou pour une contribution, nous serons très heureux de vous accueillir sur le slack d'AcadéMine.<br/>
           </p>
 
           <a href="https://trello.com/b/RZYEOxhW/acad%C3%A9mine"><h1>Trello</h1></a>
@@ -19,10 +22,6 @@ export default class Contact extends React.Component {
             Examinez le code source du site et/ou proposez votre contribution.<br/>
             Toute copie, partielle ou entière, est fortement encouragée dans quelque but que ce soit.
           </p>
-          <p>
-            N'hésitez pas à <a href="mailto:marc.brun@mines-paristech.fr">contacter l'administrateur du site </a> pour toute demande ou remarque !
-          </p>
-
         </div>
       </div>
     );

@@ -20,9 +20,9 @@ export default class JS extends React.Component {
             <p>Les frameworks sont des surcouches facilitant l'écriture de gros projets en Javascript. Les plus connus sont:</p>
             <ul>
               <li><b>React</b>: facilite la structuration du site et la réutilisabilité du code par un système de composants rappelant la Programmation Orientée Objet.</li>
-              <li><b>Angular</b>: bla bla bla.</li>
+              <li><b>Angular</b>: utilise <a href="http://www.typescriptlang.org/">TypeScript</a>, s'insère directement dans les tags HTML.</li>
               <li><b>Node</b>: permet d'utiliser Javascript côté back-end.</li>
-              <li><b>JQuery</b>: librairie encapsulant beaucoup de tâches fréquente dans des fonctions pour éviter de multiplier les lignes de code.</li>
+              <li><b>jQuery</b>: librairie encapsulant beaucoup de tâches fréquente dans des fonctions pour éviter de multiplier les lignes de code.</li>
             </ul>
             <p>Le format <b>JSON</b> (JavaScript Object Notation) est un format de représentation d'un objet sous la forme d'un texte. Il est facile à lire et écrire. L'échange de données entre les différentes parties d'un site se passe souvent sous le format JSON.</p>
             <p>Cet échange de données se fait souvent par un appel <b>AJAX</b> (Asynchronous Javascript And XML), qui permet de demander ou d'envoyer des données au serveur de manière asynchrone.</p>
@@ -60,7 +60,5 @@ export const JSNav = () => (
     <Link href='/web/js/angular' text='Angular' />
     <Link href='/web/js/node' text='Node' />
     <Link href='/web/js/jquery' text='JQuery' />
-    <Link href='/web/js/json' text='JSON' />
-    <Link href='/web/js/ajax' text='AJAX' />
   </nav>
 );

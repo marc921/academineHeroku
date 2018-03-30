@@ -32,7 +32,7 @@ export default class HackingHome extends React.Component {
             <p>
               <b>Il est entièrement légal de pirater son propre ordinateur</b>, de la même manière qu'il est légal de crocheter sa propre serrure. Il en va de même pour les machines dont les <b>propriétaires vous ont donné</b> par écrit <b>l'autorisation</b> de pirater.<br/>
               Nous vous prions de ne rien faire de mal avec ce que vous pourrez avoir appris grâce à nous ou aux liens que nous fournissons.<br/>
-              En dehors de cette décharge, la cybersécurité est un des éléments les plus passionnants de l'informatique, en partie car la plupart des attaques sont basées sur une compréhension si fine des outils mis en place que l'attaquant parvient à s'immiscer entre ce que le développeur pensait écrire et ce que la machine a compris. Dans beaucoup de cas on touche au génie, et <b>c'est beau.</b><br/>
+              En dehors de cette décharge, la cybersécurité est un des éléments les plus passionnants de l'informatique, en partie car la plupart des attaques sont basées sur une compréhension si fine des outils mis en place que l'attaquant parvient à s'immiscer entre ce que le développeur pensait écrire et ce que la machine a compris.<br/>
               De plus, savoir comment on peut vous attaquer vous permettra de mieux vous défendre et d'éviter de laisser des failles béantes dans vos créations virtuelles.<br/>
               <br/>
               Beaucoup d'outils sont prévus pour Linux.<br/>
