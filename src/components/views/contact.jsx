@@ -4,7 +4,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div>
-        <div className='page'>
+        <div className='page center'>
           <p>
             <a href="mailto:marc.brun@mines-paristech.fr">Contacter l'administrateur du site</a> pour toute demande d'ajout ou remarque !
           </p>
