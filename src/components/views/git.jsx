@@ -11,7 +11,7 @@ export default class Git extends React.Component {
               Git est un <b>système de gestion de projets informatiques</b>. En particulier, il permet de garder un historique des différentes modifications au fil du temps, de contribuer à plusieurs sur un même projet, de garder une version stable du code et des versions en cours de modifications.<br/>
               Git utilise plusieurs concepts fondamentaux:
               <ul>
-                <li><b>Dépôt/Repository</b>: le dépôt contient tout votre projet, toutes ses versions, tout son historique, comme un dossier.</li>
+                <li><b>Dépôt/Repository</b>: le dépôt contient tout votre projet, toutes ses versions, tout son historique.</li>
                 <li><b>Branche</b>: une branche est une suite de versions de votre projet. La branche master contient toutes les versions stables et ne doit pas être modifiée directement, les branches personnelles sont des branches de travail sur lesquelles on effectue les modifications voulues. Lorsqu'on veut récupérer les modifications d'une branche dans une autre, on fait une fusion (<b>merge</b>) de l'une dans l'autre.</li>
                 <li><b>Local-distant</b>: votre projet existe à deux endroit différents :
                   <ul>

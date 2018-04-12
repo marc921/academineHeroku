@@ -14,6 +14,7 @@ export default class Others extends React.Component {
           <h2>Sites sympathiques:</h2>
           <ul>
             <li><a href="https://www.codingame.com/home">CodinGame</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cellular_automaton">Wikipédia: Cellular Automaton</a></li>
           </ul>
         </div>
       </div>
