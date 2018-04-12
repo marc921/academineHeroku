@@ -16,6 +16,7 @@ export default class CSS extends React.Component {
               <li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3" >OpenClassrooms: HTML5 et CSS3</a></li>
               <li><a href="https://www.w3schools.com/css/default.asp">W3Schools: CSS</a></li>
               <li><a href="https://www.tutorialspoint.com/css/index.htm">Tutorials Point: CSS</a></li>
+              <li><a href="https://css-tricks.com/">CSS Tricks: examples de code</a></li>
             </ul>
           </div>
           <div className='half-page big-half border-left'>

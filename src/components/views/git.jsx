@@ -7,6 +7,21 @@ export default class Git extends React.Component {
         <div className='two-columns-page'>
 
           <div className='half-page half'>
+            <p>
+              Git est un <b>système de gestion de projets informatiques</b>. En particulier, il permet de garder un historique des différentes modifications au fil du temps, de contribuer à plusieurs sur un même projet, de garder une version stable du code et des versions en cours de modifications.<br/>
+              Git utilise plusieurs concepts fondamentaux:
+              <ul>
+                <li><b>Dépôt/Repository</b>: le dépôt contient tout votre projet, toutes ses versions, tout son historique, comme un dossier.</li>
+                <li><b>Branche</b>: une branche est une suite de versions de votre projet. La branche master contient toutes les versions stables et ne doit pas être modifiée directement, les branches personnelles sont des branches de travail sur lesquelles on effectue les modifications voulues. Lorsqu'on veut récupérer les modifications d'une branche dans une autre, on fait une fusion (<b>merge</b>) de l'une dans l'autre.</li>
+                <li><b>Local-distant</b>: votre projet existe à deux endroit différents :
+                  <ul>
+                    <li>Le dépôt distant, sur les serveurs de GitHub, accessible par d'autres que vous sur Internet</li>
+                    <li>Le dépôt local, sur votre ordinateur, auquel vous seul avez accès</li>
+                  </ul>
+                  Chaque dépôt a ses propres branches, son propre état, ses propres modifications. Pour les propager d'un dépôt à l'autre, on utilise les commandes <b>push</b> (local -> distant) et <b>pull</b> (distant -> local).
+                </li>
+              </ul>
+            </p>
             <h2>Liens internes</h2>
             <ul>
               <li><a href="https://github.com/marc921/academineHeroku">Dépôt Git du site AcadéMine</a></li>
