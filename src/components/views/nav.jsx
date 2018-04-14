@@ -24,7 +24,7 @@ export default class Nav extends React.Component {
 		    <Link href='/java' text='Java' />
 		    <Link href='/c-lang' text='C' />
 		    <Link href='/python' text='Python' />
-		    <Link href='/unity' text='Unity' />
+		    <Link href='/_3D' text='3D' />
 		    <Link href='/hacking' text='Cybersécurité' />
 		    <Link href='/linux' text='Linux' />
 		    <Link href='/git' text='Git' />
