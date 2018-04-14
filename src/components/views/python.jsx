@@ -38,23 +38,11 @@ export default class Python extends React.Component {
         </p>
         <h3>Sur Linux:</h3>
         <label>Installer Python</label>
-        <Highlight lang={"bash"}
-          value={
-            "sudo apt-get install python"
-          }
-        />
+        <code>sudo apt-get install python</code>
         <label>Installer pip, l'installeur de paquets (modules, librairies) Python</label>
-        <Highlight lang={"bash"}
-          value={
-            "sudo apt-get install pip"
-          }
-        />
+        <code>sudo apt-get install pip</code>
         <label>Installer scikit-learn pour le Machine Learning</label>
-        <Highlight lang={"bash"}
-          value={
-            "pip install sklearn"
-          }
-        />
+        <code>pip install sklearn</code>
 
         </div>
 
