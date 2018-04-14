@@ -52,7 +52,7 @@ export default class Python extends React.Component {
         <label>Installer scikit-learn pour le Machine Learning</label>
         <Highlight lang={"bash"}
           value={
-            "pip install scikit-learn"
+            "pip install sklearn"
           }
         />
 
