@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Nav from './components/views/nav';
 import Home from './components/views/home';
+import EnglishRouter from './components/views/english';
 import WebHome from './components/views/web/home';
 import HTML from './components/views/web/html';
 import CSS from './components/views/web/css';
@@ -32,6 +33,37 @@ import Others from './components/views/others';
 import Contact from './components/views/contact';
 import Undefined from './components/views/undefined';
 import Footer from './components/views/footer';
+
+
+import EnglishHome from './components/views/en/home';
+import EnglishWebHome from './components/views/en/web/home';
+import EnglishHTML from './components/views/en/web/html';
+import EnglishCSS from './components/views/en/web/css';
+import EnglishJS from './components/views/en/web/js/home';
+import EnglishReactPage from './components/views/en/web/js/react';
+import EnglishAngular from './components/views/en/web/js/angular';
+import EnglishJQuery from './components/views/en/web/js/jquery';
+import EnglishNodeJS from './components/views/en/web/js/node';
+import EnglishPHP from './components/views/en/web/php';
+import EnglishSQL from './components/views/en/web/sql';
+import EnglishWebAnnexes from './components/views/en/web/annexes';
+import EnglishJavaHome from './components/views/en/java/home';
+import EnglishC from './components/views/en/c';
+import EnglishPython from './components/views/en/python';
+import English_3D from './components/views/en/_3D';
+import EnglishHackingHome from './components/views/en/hacking/home';
+import EnglishHackingWeb from './components/views/en/hacking/web';
+import EnglishHackingBinaries from './components/views/en/hacking/binaries';
+import EnglishHackingSystem from './components/views/en/hacking/system';
+import EnglishHackingNetwork from './components/views/en/hacking/network';
+import EnglishHackingAnnexes from './components/views/en/hacking/annexes';
+import EnglishGit from './components/views/en/git';
+import EnglishLinux from './components/views/en/linux';
+import EnglishConcepts from './components/views/en/concepts';
+import EnglishOthers from './components/views/en/others';
+import EnglishContact from './components/views/en/contact';
+import EnglishUndefined from './components/views/en/undefined';
+
 import './index.css';
 
 
@@ -67,6 +99,37 @@ ReactDOM.render(
 					<Route exact path='/concepts' component={Concepts} />
 					<Route exact path='/others' component={Others} />
 					<Route exact path='/contact' component={Contact} />
+
+
+				<Route exact path='/en' component={EnglishHome} />
+					<Route exact path='/en/web' component={EnglishWebHome} />
+						<Route exact path='/en/web/html' component={EnglishHTML} />
+						<Route exact path='/en/web/css' component={EnglishCSS} />
+						<Route exact path='/en/web/js' component={EnglishJS} />
+							<Route exact path='/en/web/js/react' component={EnglishReactPage} />
+							<Route exact path='/en/web/js/angular' component={EnglishAngular} />
+							<Route exact path='/en/web/js/node' component={EnglishNodeJS} />
+							<Route exact path='/en/web/js/jquery' component={EnglishJQuery} />
+						<Route exact path='/en/web/php' component={EnglishPHP} />
+						<Route exact path='/en/web/sql' component={EnglishSQL} />
+						<Route exact path='/en/web/annexes' component={EnglishWebAnnexes} />
+					<Route exact path='/en/java' component={EnglishJavaHome} />
+					<Route exact path='/en/c-lang' component={EnglishC} />
+					<Route exact path='/en/python' component={EnglishPython} />
+					<Route exact path='/en/_3D' component={English_3D} />
+					<Route exact path='/en/hacking' component={EnglishHackingHome} />
+						<Route exact path='/en/hacking/web' component={EnglishHackingWeb} />
+						<Route exact path='/en/hacking/binaries' component={EnglishHackingBinaries} />
+						<Route exact path='/en/hacking/system' component={EnglishHackingSystem} />
+						<Route exact path='/en/hacking/network' component={EnglishHackingNetwork} />
+						<Route exact path='/en/hacking/annexes' component={EnglishHackingAnnexes} />
+					<Route exact path='/en/git' component={EnglishGit} />
+					<Route exact path='/en/linux' component={EnglishLinux} />
+					<Route exact path='/en/concepts' component={EnglishConcepts} />
+					<Route exact path='/en/others' component={EnglishOthers} />
+					<Route exact path='/en/contact' component={EnglishContact} />
+				
+				<Route path='/en' component={EnglishUndefined} />
 				
 				<Route path='/' component={Undefined} />
 			</Switch>
