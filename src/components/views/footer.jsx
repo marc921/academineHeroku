@@ -18,8 +18,8 @@ export default class Footer extends React.Component {
 			language: language,
 			contact: contact,
 			constructionMessages: {
-				"french": "Le site est actuellement (01/05/2018) en construction.",
-				"english": "The website is currently (01/05/2018) under construction."
+				"french": "Le site est actuellement (05/06/2018) en construction.",
+				"english": "The website is currently (05/06/2018) under construction."
 			}
 		};
 	}

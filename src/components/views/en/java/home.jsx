@@ -10,43 +10,42 @@ export default class JavaHome extends React.Component {
         <div className='two-columns-page'>
 
           <div className='half-page half'>
-            <h2>Tutoriels extérieurs</h2>
+            <h2>External tutorials</h2>
             <ul>
-              <li><a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java">OpenClassrooms: Java</a></li>
               <li><a href="https://www.tutorialspoint.com/java/index.htm">Tutorials Point: Java</a></li>
               <li><a href="https://www.javatpoint.com/java-tutorial">Java T Point: Java</a></li>
               <li><a href="https://www.learnjavaonline.org/">Learn Java Online</a></li>
             </ul>
 
             <h2>
-              Squelette de projet graphique en Java:
+              Skeleton of a graphical project in Java: (to help you get started)
             </h2>
             <ul>
-              <li><a href="/assets/java/Engine.java">Engine.java</a>: le moteur de jeu, coeur du projet.</li>
-              <li><a href="/assets/java/GUI.java">GUI.java</a>: gestion de la fenêtre de jeu et des inputs (clavier, souris).</li>
-              <li><a href="/assets/java/Panel.java">Panel.java</a>: gestion de l'affichage</li>
+              <li><a href="/assets/java/Engine.java">Engine.java</a>: the game engine, project's core.</li>
+              <li><a href="/assets/java/GUI.java">GUI.java</a>: manages game window and inputs (keyboard, mouse).</li>
+              <li><a href="/assets/java/Panel.java">Panel.java</a>: manages display</li>
               <li><a href="/assets/java/Fighter.java">Fighter.java</a></li>
               <li><a href="/assets/java/fighter.png">fighter.png</a></li>
             </ul>
             <p>
-              Créez un nouveau projet avec Eclipse, ajoutez les fichiers .java dans src/ et fighter.png à la racine du projet, et c'est bon !
+              Create a new project on Eclipse, add the .java files in /src/ and the .png file in the project's root and you're good to go!
             </p>
           </div>
 
           <div className='half-page half border-left'>
-            <h2>Hello World en une minute sur Linux:</h2>
+            <h2>Hello World in a minute on Linux:</h2>
             <ol>
-              <li>Installer Java Runtime Environment: <code>sudo apt-get install openjdk-8-jre</code></li>
-              <li>Installer Java Development Kit: <code>sudo apt-get install openjdk-8-jdk</code></li>
-              <li>Copier-coller le code suivant dans un fichier Hello.java:<br/>
+              <li>Install Java Runtime Environment: <code>sudo apt-get install openjdk-8-jre</code></li>
+              <li>Install Java Development Kit: <code>sudo apt-get install openjdk-8-jdk</code></li>
+              <li>Copy-paste following code in a file named Hello.java:<br/>
                 <Highlight lang={"java"}
                   value={
                     "public class Hello {\n public static void main(String args[]){\n   System.out.println(\"Hello World!\");\n }\n}"
                   }
                 />
               </li>
-              <li>Compiler avec: <code>javac Hello.java</code></li>
-              <li>Lancer le programme compilé avec: <code>java Hello</code></li>
+              <li>Compile using: <code>javac Hello.java</code></li>
+              <li>Launch compiled program using: <code>java Hello</code></li>
             </ol>
           </div>
 
