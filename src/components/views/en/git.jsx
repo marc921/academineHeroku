@@ -36,7 +36,7 @@ export default class Git extends React.Component {
           </div>
 
           <div className='half-page half border-left'>
-            <h3>Utilisation facile et stable de Git (avec le terminal Linux ou Git Bash pour Windows):</h3>
+            <h3>Utilisation facile et stable de Git (avec le terminal Linux ou <a href="https://github.com/git-for-windows/git/releases/tag/v2.17.1.windows.2">Git Bash</a> pour Windows):</h3>
             <ol>
               <li>Créer un compte Git sur <a href="https://github.com/">GitHub</a></li>
               <li>Créer un <a href="https://github.com/new">nouveau dépôt distant</a> (c'est-à-dire hébergé sur les serveurs de GitHub) pour votre projet</li>
